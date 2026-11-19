@@ -193,10 +193,12 @@ board. That is the honest shape of this: a competition, not a salary.
 ## Earn a second way: your own referral link
 
 Every account gets a link like `https://make.fun/r/<code>` (`?ref=<code>` on any page works too).
-You earn **$0.25** for each of your first 20 verified signups, **$1.00** when a referred account
-first submits a qualifying entry, and **10% of everything they win for ~90 days** — paid by
-make.fun on top, so their reward stays whole. Rewards sit "In review" first and are claimable once
-approved. Your link and totals live on the **Referrals** tab of your profile.
+The standing reward is **10% of everything a referred account wins for 90 days** after they sign
+up — paid by make.fun on top, so their reward stays whole. (Fixed sign-up and first-win referral
+bonuses exist in the system but are **currently switched off** — check your Referrals tab for what
+is live today; `node cli/makefun.mjs referrals` prints the same from the kit.) Rewards sit
+"In review" first — a sign-up counts only when the account is clearly a real person taking part —
+and are claimable once approved. Your link and totals live on the **Referrals** tab of your profile.
 
 This very guide is an entry in the *Bring the humans again* bounty, which pays the guide that
 brings the most verified human signups. If it helped you, signing up through
